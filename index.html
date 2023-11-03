@@ -1,0 +1,581 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Landing Page</title>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+      integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Arvo:wght@700&family=Italianno&family=Lobster&family=Nunito:wght@300;400;500;700;800;900&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Roboto+Slab:wght@200;300;400;500;600;700;800&family=Roboto:ital,wght@0,300;0,900;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Arvo:wght@700&family=Italianno&family=Lobster&family=Nunito:wght@300;400;500;700;800;900&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Roboto+Slab:wght@200;300;400;500;600;700;800&family=Roboto:ital,wght@0,300;0,500;0,700;0,900;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Arvo:wght@700&family=Italianno&family=Lobster&family=Nunito:wght@300;400;500;700;800;900&family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Roboto+Slab:wght@200;300;400;500;600;700;800&family=Roboto:ital,wght@0,300;0,500;0,700;0,900;1,400&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="main">
+      <div class="navbar">
+        <div class="logo"><h2>Cloud9 Bed & Breakfast</h2></div>
+        <div class="address">
+          <p>
+            B- 21, 22, Dev Bhoomi Adinath Homes, Solan Himachal Pradesh, 173211
+          </p>
+          <p>+91 9837014567</p>
+        </div>
+      </div>
+      <div class="menu">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#welcome">Welcome</a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNav"
+              aria-controls="navbarNav"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link" href="#rooms">Rooms</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#diffrent2">Host</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#gallery">Gallery</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#review">Review</a>
+                </li>
+                <li class="nav-item">
+                  <button>Call us!</button>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+
+        <div id="carouselExampleIndicators" class="carousel slide">
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="0"
+              class="active"
+              aria-current="true"
+              aria-label="Slide 1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="2"
+              aria-label="Slide 3"
+            ></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="./first.png" class="d-block w-100" alt="..." />
+            </div>
+            <div class="carousel-item">
+              <img src="./second.png" class="d-block w-100" alt="..." />
+            </div>
+            <div class="carousel-item">
+              <img src="./third.png" class="d-block w-100" alt="..." />
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+      <div class="welcomepart" id="welcome">
+        <h2>Welcome to Cloud9 - Your Sanctuary in the Himalayas!</h2>
+        <p>
+          Nestled in the picturesque hills of Solan, Himachal Pradesh, Cloud9
+          Bed & Breakfast offers a charming escape from the everyday hustle and
+          bustle. Our story is one of warmth, comfort, and the sheer joy of
+          reconnecting with nature.
+          <br />
+          <br />
+          Cloud9, as our name suggests, aims to provide you with an experience
+          that takes you closer to the heavens. Surrounded by lush greenery and
+          the breathtaking Himalayan landscape, we've carefully curated an
+          ambiance that blends modern comfort with nature's tranquility.
+          <br />
+          <br />
+          We aim to ensure that every moment of your stay is a cherished memory.
+          From the cozy rooms to the delightful views, we've designed every
+          aspect of Cloud9 with your comfort in mind.
+          <br />
+          <br />
+          But Cloud9 is more than just a place to lay your head. It's an
+          exploration into the vibrant culture and natural beauty of Himachal
+          Pradesh. Wake up to the melodious chirping of birds, savor homemade
+          delicacies , and embark on thrilling treks through pine-scented
+          forests. Whether you're a nature enthusiast, an adventure seeker, or a
+          traveler seeking solace, Cloud9 has something special for you.
+          <br />
+          <br />
+          P.S- We are a pet friendly place. So feel free to bring your furry
+          friend with you!
+        </p>
+        <div class="line"></div>
+        <div class="images" id="rooms">
+          <div class="outerBox">
+            <div class="content">
+              <h2>Room 1: Blue Magpie</h2>
+              <ul>
+                <li>1 King Size Bed</li>
+                <li>1 Sofa- cum Bed</li>
+                <li>Attached washroom</li>
+                <li>Balcony</li>
+                <li>Mountain Valley View</li>
+                <li>Air Conditioner</li>
+                <li>No oxygen burning Heater</li>
+                <li>24 hrs oxygen producing plants</li>
+                <li>Hot water Geyser</li>
+                <li>Smart TV</li>
+              </ul>
+            </div>
+            <div>
+              <img src="./first.png" />
+            </div>
+          </div>
+          <div class="outerBox" id="diffrent">
+            <div>
+              <img src="./second.png" />
+            </div>
+            <div class="content">
+              <h2>Room 2: Sparrow</h2>
+              <ul>
+                <li>1 King Size Bed</li>
+                <li>1 Sofa- cum Bed</li>
+                <li>Attached washroom</li>
+                <li>Balcony</li>
+                <li>Mountain Valley View</li>
+                <li>Air Conditioner</li>
+                <li>No oxygen burning Heater</li>
+                <li>24 hrs oxygen producing plants</li>
+                <li>Hot water Geyser</li>
+                <li>Smart TV</li>
+              </ul>
+            </div>
+          </div>
+          <div class="outerBox">
+            <div class="content">
+              <h2>Room 3: Sparrow</h2>
+              <ul>
+                <li>1 King Size Bed</li>
+                <li>1 Sofa- cum Bed</li>
+                <li>Attached washroom</li>
+                <li>Balcony</li>
+                <li>Mountain Valley View</li>
+                <li>Air Conditioner</li>
+                <li>No oxygen burning Heater</li>
+                <li>24 hrs oxygen producing plants</li>
+                <li>Hot water Geyser</li>
+                <li>Smart TV</li>
+              </ul>
+            </div>
+            <div>
+              <img src="./third.png" />
+            </div>
+          </div>
+          <div class="outerBox" id="diffrent2">
+            <div>
+              <img
+                style="margin-left: 40px; margin-bottom: 30px; margin-top: 30px"
+                src="./forth.png"
+              />
+            </div>
+            <div class="content">
+              <h2 style="margin-top: 20px">Your Hosts!</h2>
+              <p>
+                Hello, we are a retired couple, in our 50s, eager to make your
+                stay at Cloud9 unforgettable with our hospitality, enthusiasm,
+                care and warmth.
+                <span style="color: red">- Geetu & Gopal</span>
+              </p>
+            </div>
+          </div>
+          <div class="gallery" id="gallery">
+            <h2>Gallery!</h2>
+            <div
+              id="carouselExampleAutoplaying"
+              class="carousel slide"
+              data-bs-ride="carousel"
+            >
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img
+                    src="https://dxecch.stripocdn.email/content/guids/CABINET_b3640e9e8bf007f76d445e08208f874173c78a5a25218f084755d3727368c848/images/snow_9_kMl.jpg
+
+                  "
+                    class="d-block w-100"
+                    alt="..."
+                  />
+                </div>
+                <div class="carousel-item" id="imgaes">
+                  <img
+                    src="https://dxecch.stripocdn.email/content/guids/CABINET_b3640e9e8bf007f76d445e08208f874173c78a5a25218f084755d3727368c848/images/ploughing_2227.jpg
+
+                  "
+                    class="d-block w-100"
+                    alt="..."
+                  />
+                </div>
+                <div class="carousel-item" id="imgaes">
+                  <img
+                    src="https://dxecch.stripocdn.email/content/guids/CABINET_b3640e9e8bf007f76d445e08208f874173c78a5a25218f084755d3727368c848/images/view_39.jpg
+                  "
+                    class="d-block w-100"
+                    alt="..."
+                  />
+                </div>
+                <div class="carousel-item" id="imgaes">
+                  <img
+                    src="https://dxecch.stripocdn.email/content/guids/CABINET_b3640e9e8bf007f76d445e08208f874173c78a5a25218f084755d3727368c848/images/rainbow_7191.jpg
+
+                  "
+                    class="d-block w-100"
+                    alt="..."
+                  />
+                </div>
+                <div class="carousel-item" id="imgaes">
+                  <img
+                    src="https://dxecch.stripocdn.email/content/guids/CABINET_b3640e9e8bf007f76d445e08208f874173c78a5a25218f084755d3727368c848/images/view_34.jpg
+                  "
+                    class="d-block w-100"
+                    alt="..."
+                  />
+                </div>
+                <div class="carousel-item" id="imgaes">
+                  <img
+                    src="https://dxecch.stripocdn.email/content/guids/CABINET_b3640e9e8bf007f76d445e08208f874173c78a5a25218f084755d3727368c848/images/terrace_1.jpg
+                  "
+                    class="d-block w-100"
+                    alt="..."
+                  />
+                </div>
+                <div class="carousel-item" id="imgaes">
+                  <img
+                    src="https://dxecch.stripocdn.email/content/guids/CABINET_b3640e9e8bf007f76d445e08208f874173c78a5a25218f084755d3727368c848/images/terrace_7.jpg
+                  "
+                    class="d-block w-100"
+                    alt="..."
+                  />
+                </div>
+                <div class="carousel-item" id="imgaes">
+                  <img
+                    src="https://dxecch.stripocdn.email/content/guids/CABINET_b3640e9e8bf007f76d445e08208f874173c78a5a25218f084755d3727368c848/images/sparrow_balcony.jpg
+                  "
+                    class="d-block w-100"
+                    alt="..."
+                  />
+                </div>
+                <div class="carousel-item" id="imgaes">
+                  <img
+                    src="https://dxecch.stripocdn.email/content/guids/CABINET_b3640e9e8bf007f76d445e08208f874173c78a5a25218f084755d3727368c848/images/entrance_with_light_5.jpg
+                  "
+                    class="d-block w-100"
+                    alt="..."
+                  />
+                </div>
+                <div class="carousel-item" id="imgaes">
+                  <img
+                    src="https://dxecch.stripocdn.email/content/guids/CABINET_b3640e9e8bf007f76d445e08208f874173c78a5a25218f084755d3727368c848/images/entrance_with_lift_4.jpg "
+                    class="d-block w-100"
+                    alt="..."
+                  />
+                </div>
+                <div class="carousel-item" id="imgaes">
+                  <img
+                    src="https://dxecch.stripocdn.email/content/guids/CABINET_b3640e9e8bf007f76d445e08208f874173c78a5a25218f084755d3727368c848/images/dinning_22.jpg "
+                    class="d-block w-100"
+                    alt="..."
+                  />
+                </div>
+                <div class="carousel-item" id="imgaes">
+                  <img
+                    src="https://dxecch.stripocdn.email/content/guids/CABINET_b3640e9e8bf007f76d445e08208f874173c78a5a25218f084755d3727368c848/images/hall_2_22.jpg
+                  "
+                    class="d-block w-100"
+                    alt="..."
+                  />
+                </div>
+                <div class="carousel-item" id="imgaes">
+                  <img
+                    src="https://dxecch.stripocdn.email/content/guids/CABINET_b3640e9e8bf007f76d445e08208f874173c78a5a25218f084755d3727368c848/images/living_21.jpg
+                  "
+                    class="d-block w-100"
+                    alt="..."
+                  />
+                </div>
+                <div class="carousel-item" id="imgaes">
+                  <img
+                    src="https://dxecch.stripocdn.email/content/guids/CABINET_b3640e9e8bf007f76d445e08208f874173c78a5a25218f084755d3727368c848/images/kitchen_1_21.jpg
+                  "
+                    class="d-block w-100"
+                    alt="..."
+                  />
+                </div>
+                <div class="carousel-item" id="imgaes">
+                  <img
+                    src="https://dxecch.stripocdn.email/content/guids/CABINET_b3640e9e8bf007f76d445e08208f874173c78a5a25218f084755d3727368c848/images/white_eye_bath_room_1.jpg
+                  "
+                    class="d-block w-100"
+                    alt="..."
+                  />
+                </div>
+                <div class="carousel-item" id="imgaes">
+                  <img
+                    src="https://dxecch.stripocdn.email/content/guids/CABINET_b3640e9e8bf007f76d445e08208f874173c78a5a25218f084755d3727368c848/images/sparrow_bath_wc.jpg
+                  "
+                    class="d-block w-100"
+                    alt="..."
+                  />
+                </div>
+                <div class="carousel-item" id="imgaes">
+                  <img
+                    src="https://dxecch.stripocdn.email/content/guids/CABINET_b3640e9e8bf007f76d445e08208f874173c78a5a25218f084755d3727368c848/images/sparrow_bath_room.jpg
+                  "
+                    class="d-block w-100"
+                    alt="..."
+                  />
+                </div>
+
+                <div class="carousel-item" id="imgaes">
+                  <img
+                    src="https://dxecch.stripocdn.email/content/guids/CABINET_b3640e9e8bf007f76d445e08208f874173c78a5a25218f084755d3727368c848/images/blue_magpie_bathroom.jpg "
+                    class="d-block w-100"
+                    alt="..."
+                  />
+                </div>
+              </div>
+              <button
+                class="carousel-control-prev"
+                type="button"
+                data-bs-target="#carouselExampleAutoplaying"
+                data-bs-slide="prev"
+              >
+                <span
+                  class="carousel-control-prev-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button
+                class="carousel-control-next"
+                type="button"
+                data-bs-target="#carouselExampleAutoplaying"
+                data-bs-slide="next"
+              >
+                <span
+                  class="carousel-control-next-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
+          <div class="review" id="review">
+            <h2 style="margin-top: 15px">Review!</h2>
+            <div id="carouselExampleDark" class="carousel carousel-dark slide">
+              <div class="carousel-indicators">
+                <button
+                  type="button"
+                  data-bs-target="#carouselExampleDark"
+                  data-bs-slide-to="0"
+                  class="active"
+                  aria-current="true"
+                  aria-label="Slide 1"
+                ></button>
+                <button
+                  type="button"
+                  data-bs-target="#carouselExampleDark"
+                  data-bs-slide-to="1"
+                  aria-label="Slide 2"
+                ></button>
+                <button
+                  type="button"
+                  data-bs-target="#carouselExampleDark"
+                  data-bs-slide-to="2"
+                  aria-label="Slide 3"
+                ></button>
+              </div>
+              <div class="carousel-inner">
+                <div
+                  class="carousel-item active"
+                  id="feedback"
+                  data-bs-interval="10000"
+                >
+                  <!-- <img src="..." class="d-block w-100" alt="..."> -->
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5>-Ankita Garg</h5>
+                    <p>
+                      We stayed for a day here. It was very nice experience to
+                      have Gopal ji and Geetu ji as hosts. They are very
+                      friendly and caring. The rooms and bathrooms are neat and
+                      clean. The interiors of the house is very rich and things
+                      are placed thoughtfully. Geetu ji cooked delicious
+                      breakfast with love. I appreciate the photography skills
+                      of Gopal ji. I liked wild life photographs placed over
+                      there. Thank you so much for good conversations and great
+                      experience.
+                    </p>
+                  </div>
+                </div>
+                <div
+                  class="carousel-item"
+                  id="feedback"
+                  data-bs-interval="2000"
+                >
+                  <!-- <img src="..." class="d-block w-100" alt="..."> -->
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5>-Darshin Thakkar</h5>
+                    <p>
+                      Great stay with awesome nature of cutest couple ( It was
+                      awesome). Don't forget antyji's paratha & burger.
+                      Experience of uncle was too good, his talks makes you feel
+                      more alive around them.One of the best homestay I have
+                      ever stayed in.Solan as my heart around you both, healthy
+                      life to you both lovely couple.
+                    </p>
+                  </div>
+                </div>
+                <div class="carousel-item" id="feedback">
+                  <!-- <img src="..." class="d-block w-100" alt="..."> -->
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5>Vineet Sharma</h5>
+                    <p>
+                      Friends this is one of the best homestay I have ever been
+                      to and the hosts are excellent and make you feel that you
+                      are on vacation at some relatives place. Food and snacks
+                      were extremely tasty and made by Aunty herself. Both Uncle
+                      and Aunty are jovial and lovely to talk to and very
+                      helpful and understanding. Must visit place.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <button
+                class="carousel-control-prev"
+                type="button"
+                data-bs-target="#carouselExampleDark"
+                data-bs-slide="prev"
+              >
+                <span
+                  class="carousel-control-prev-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button
+                class="carousel-control-next"
+                type="button"
+                data-bs-target="#carouselExampleDark"
+                data-bs-slide="next"
+              >
+                <span
+                  class="carousel-control-next-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
+          <div class="footer">
+            <p>
+              B- 21, 22, Dev Bhoomi, Adinath Homes, Subathu Road, Solan,
+              Himachal Pradesh, 173211
+            </p>
+            <div>
+              <p>
+                <img
+                  style="margin-right: 10px"
+                  src="./phone.png"
+                  alt="phone"
+                />+91 9837014567
+              </p>
+              <p>
+                <img
+                  src="./gmail.png"
+                  style="margin-right: 10px"
+                  alt="gmail"
+                />cloud9solan@gmail.com
+              </p>
+            </div>
+            <div>
+              <div>
+                <a href="" target="_blank"
+                  ><img
+                    style="margin-right: 10px"
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQn1dkODd9wg5Bd7fGpHXl4U-5vVdQ7Vxs_7PGq6vQ&s"
+                /></a>
+                <a href="" target="_blank"
+                  ><img
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHHiSk_f7Ql9FE9jl3kJr-aLwJETrgluIJq6KPWwc&s"
+                /></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
