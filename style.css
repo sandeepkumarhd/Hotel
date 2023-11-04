@@ -2,7 +2,11 @@
   margin: 0;
   padding: 0;
 }
-
+#line {
+  border: 2px dashed wheat;
+  height: 0px;
+  width: 100%;
+}
 .main {
   height: auto;
   width: 100%;
@@ -193,7 +197,7 @@
 }
 /*Review Start */
 .review {
-  height: 75vh;
+  height: auto;
   width: 100%;
 }
 #feedback {
@@ -287,14 +291,13 @@
     align-items: center;
     justify-content: space-around;
   }
-  #frontview{
+  #frontview {
     width: 100%;
   }
   #carouselExampleIndicators {
     width: 95%;
     height: 200px;
     aspect-ratio: 2/3;
-
   }
   .footer > div {
     margin: 20px auto;
@@ -348,6 +351,9 @@
   }
   .navbar {
     flex-direction: column;
+  }
+  #lastReview{
+    margin-top: 15px;
   }
   .logo {
     width: 100%;
