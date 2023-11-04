@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
 }
+
 .main {
   height: auto;
   width: 100%;
@@ -75,7 +76,7 @@
 }
 #img{
   margin-bottom: 30px;
-  width: 100%;
+  /* width: 100%; */
 }
 .menu > div {
   width: 60%;
@@ -278,6 +279,7 @@
 }
 /* Mobile View */
 @media (max-width: 650px) {
+
   .footer {
     flex-direction: column;
     align-items: center;
@@ -311,9 +313,17 @@
   }
   .outerBox img {
     width: 100%;
-    margin-left: 0%;
+    margin-left: 0px;
     object-fit: contain;
     height: auto;
+  }
+  .content h2 {
+    color: #0e0571;
+    font-family: "Playfair Display";
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
   }
   .footer > p {
     width: 100%;
@@ -329,7 +339,7 @@
     flex-direction: column;
   }
   .logo {
-    width: 90%;
+    width: 100%;
     margin: auto;
   }
   .logo > h2 {
