@@ -7,6 +7,10 @@
   height: 0px;
   width: 100%;
 }
+.card{
+  width: 50%;
+  margin:40px auto;
+}
 .main {
   height: auto;
   width: 100%;
@@ -242,6 +246,10 @@
     width: 50%;
     margin: auto;
   }
+  .card{
+    width: 85%;
+    margin:40px auto;
+  }
   .address {
     display: flex;
     flex-direction: column;
@@ -363,6 +371,10 @@
     font-size: 9vw;
     font-weight: 600;
     text-align: center;
+  }
+  .card{
+    width: 95%;
+    margin:20px auto;
   }
   .address {
     display: flex;
