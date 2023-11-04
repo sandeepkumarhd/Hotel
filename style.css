@@ -26,7 +26,7 @@
   width: 100%;
   justify-content: space-around;
 }
-#containerNaver >li>button{
+#containerNaver > li > button {
   padding: 8px 20px;
   border-radius: 9px;
   background: #ee9f53;
@@ -67,14 +67,14 @@
 .menu {
   width: 100%;
   height: auto;
-  background-color: #ffffff;
+  background-color: #ffeecc;
   background-image: url("./liht.png");
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
-#img{
+#img {
   margin-bottom: 30px;
   /* width: 100%; */
 }
@@ -100,8 +100,9 @@
 }
 /* Welcome part */
 .welcomepart {
-  background-image: url("./background.png");
+  /* background-image: url("./background.png"); */
   height: auto;
+  background-color: #ffeecc;
   width: 100%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -113,7 +114,9 @@
   font-style: normal;
   text-align: center;
   font-weight: 400;
+  text-shadow: 2px 2px 8px #ec0505;
   padding: 20px 0px;
+  text-decoration: underline;
 }
 .welcomepart p {
   width: 90%;
@@ -279,7 +282,6 @@
 }
 /* Mobile View */
 @media (max-width: 650px) {
-
   .footer {
     flex-direction: column;
     align-items: center;
@@ -290,7 +292,7 @@
     width: 100%;
   }
   .welcomepart p {
-    font-family: "Roboto" ;
+    font-family: "Roboto";
     font-size: 14px;
   }
   .welcomepart h2 {
@@ -355,7 +357,7 @@
     text-align: center;
     align-items: last baseline;
   }
-  #topImg img{
-width: 90%;
+  #topImg img {
+    width: 90%;
   }
 }
