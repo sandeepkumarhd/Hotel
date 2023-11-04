@@ -287,6 +287,15 @@
     align-items: center;
     justify-content: space-around;
   }
+  #frontview{
+    width: 100%;
+  }
+  #carouselExampleIndicators {
+    width: 95%;
+    height: 200px;
+    aspect-ratio: 2/3;
+
+  }
   .footer > div {
     margin: 20px auto;
     width: 100%;
