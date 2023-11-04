@@ -15,6 +15,23 @@
   justify-content: space-around;
   align-items: center;
 }
+#navbar {
+  width: 65%;
+  border-radius: 15px;
+}
+#containerNaver {
+  float: right;
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+}
+#containerNaver >li>button{
+  padding: 8px 20px;
+  border-radius: 9px;
+  background: #ee9f53;
+  font-size: 18px;
+  border: none;
+}
 .logo {
   width: 55%;
   margin: auto;
@@ -56,9 +73,9 @@
   justify-content: center;
   align-items: center;
 }
-.topPic {
+#img{
   margin-bottom: 30px;
-  width: 50%;
+  width: 100%;
 }
 .menu > div {
   width: 60%;
@@ -70,31 +87,6 @@
   position: relative;
   top: -10px;
   padding: 0px 15px;
-}
-.menu > div > ul {
-  display: flex;
-  width: 100%;
-  align-items: center;
-  margin: auto;
-  justify-content: space-around;
-}
-.menu > div > ul li {
-  border-right: 1.5px solid black;
-  padding-right: 2.9vw;
-  list-style: none;
-  color: #000;
-  text-align: center;
-  font-family: Roboto Serif;
-  font-size: 21.359px;
-  font-style: normal;
-  font-weight: 400;
-}
-.menu > div > ul button {
-  padding: 8px 20px;
-  border-radius: 9px;
-  background: #ee9f53;
-  font-size: 18px;
-  border: none;
 }
 #carouselExampleIndicators {
   height: 35vw;
@@ -295,12 +287,34 @@
     margin: 20px auto;
     width: 100%;
   }
+  .welcomepart p {
+    font-family: "Roboto" ;
+    font-size: 14px;
+  }
+  .welcomepart h2 {
+    color: #0e0571;
+    font-family: Playfair;
+    font-size: 5.5vw;
+    font-style: normal;
+    text-align: center;
+    font-weight: 400;
+    padding: 20px 0px;
+  }
   .footer > div > p {
     margin: 20px auto;
     width: 100%;
     text-align: center;
   }
-
+  #navbar {
+    width: 100%;
+    border-radius: 0px;
+  }
+  .outerBox img {
+    width: 100%;
+    margin-left: 0%;
+    object-fit: contain;
+    height: auto;
+  }
   .footer > p {
     width: 100%;
     text-align: center;
@@ -314,16 +328,14 @@
   .navbar {
     flex-direction: column;
   }
-  .logo{
+  .logo {
     width: 90%;
     margin: auto;
-
   }
   .logo > h2 {
     font-size: 9vw;
     font-weight: 600;
     text-align: center;
-  
   }
   .address {
     display: flex;
@@ -332,5 +344,8 @@
     width: 90%;
     text-align: center;
     align-items: last baseline;
+  }
+  #topImg img{
+width: 90%;
   }
 }
