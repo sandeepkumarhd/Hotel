@@ -35,7 +35,7 @@
   justify-content: space-around;
 }
 #containerNaver > li > button {
-  padding: 8px 20px;
+  padding: 0px 14px;
   border-radius: 9px;
   background: #ee9f53;
   font-size: 18px;
